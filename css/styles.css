@@ -12,10 +12,20 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding:1em;
-    background-color: green;
+    background-color:#16202C;
 }
 .nav img{
     width: 5em
+}
+.btn{
+    background-color: green;
+    color: greenyellow;
+    padding: 1em;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.05);
+    transition: all .5s ease;
 }
 th{
     background-color: #212931;
