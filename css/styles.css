@@ -1,5 +1,37 @@
 /* section1 styles */
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:#212931 ;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:1em;
+    background-color: green;
+}
+.nav img{
+    width: 5em
+}
+th{
+    background-color: #212931;
+color: snow;
+}
+table{
+    border-collapse: collapse;
+    
+}
+td {
+    padding: 2em;
+}
+tr{
+    background-color: #16202C;
+    color: thistle;
+}
 /* section2 styles */
 
 /* section3 syles */

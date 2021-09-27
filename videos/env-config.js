@@ -1,0 +1,15 @@
+window._env_ = {
+  REACT_APP_IFORIUM_BASE_URL: "https://gameflex-l019.game-flex.eu",
+  REACT_APP_GATEWAY_HOST: "https://casino-gw.ke.sportpesa.com",
+  REACT_APP_MIN_CASINO_BALANCE: "1",
+  REACT_APP_CASINO_DEFAULT_CATEGORY_SLUG: "popular",
+  REACT_APP_GATEWAY_HOST_: "",
+  REACT_APP_CASINO_LOBBY_URL: "https://www.ke.sportpesa.com/casino",
+  REACT_APP_CASINO_CASH_URL: "https://www.ke.sportpesa.com/deposit_funds",
+  REACT_APP_STANDALONE: "",
+  REACT_APP_PLATFORM_KEY: "L019",
+  REACT_APP_OPERATOR_CODE: "SPK",
+  REACT_APP_BRAND_ID: "106",
+  REACT_APP_GEL_LIBRARY_URL: "https://gameflex-l019.game-flex.eu/gamelaunch/express/gameflexExpressLibraryLoader.js",
+  REACT_APP_THEME: "",
+};
