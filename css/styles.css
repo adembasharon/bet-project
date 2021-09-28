@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    width:80%;
+    margin: 0 auto;
+}
 .header{
     background-color:#212931 ;
 }
@@ -30,13 +34,14 @@
 th{
     background-color: #212931;
 color: snow;
+margin:0em 2em
 }
 table{
     border-collapse: collapse;
     
 }
 td {
-    padding: 2em;
+    padding: 4em;
 }
 tr{
     background-color: #16202C;
