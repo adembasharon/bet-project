@@ -1,178 +1,145 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* section1 styles */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.container{
-    width:100%;
-    margin: 0 auto;
-}
-
-
-.nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: sticky;
-    /* width: 100%; */
-    padding:1em;
-    background-color:#16202C;
-    
-}
-.nav-right{
-    display: flex;
-    flex-direction: row;
-    padding: 1em;
-}
-
-.nav img{
-    width:90px;
-}
-th{
-    color: ivory;
-padding: 2em;
-}
-.btn{
-background-color: lawngreen;
-cursor: pointer;
-padding: 1em 1.5em;
-border-radius: 0.5em;
-}
-.bar{
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #23313D;
-    color: whitesmoke;
-}
-.bar img{
-    width: 15px;
-}
-.soccer{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-
 
 /* section2 styles */
-body{
-    font-family: serif sans-serif helvetica;
+
+/* section3 syles */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
+.dark-bg{
+background-color: black;
+color: white;
+}
+
+
 .container{
-    width: 95%;
-    margin: 0 auto;
+width: 80%;
+margin: 0 auto;
 }
-.head-sec1{
-    display: flex;
-    background-color: green;
-    justify-content: space-between;
-}
-.paragraph-sec1{
-    font-size: xx-large;
-    font-weight: bold;
-    width:70%;
-    margin-bottom: 1.5em;
-    margin-top: .5em;
-}
-.img1{
-    width:100%;
-}
-.trophy1{
-    margin-top: .2em;
-}
-.btn1{
-    padding: .3em;
-    width: 50%;
-    font-size: larger;
-    margin-right: 1.2rem;
-    border-radius: 3%;
-    border: none;
-    cursor: pointer;
-}
-.foot-ph1{
-    text-align: center;
-    margin: 0.4em 0;
-    font-size:xx-large;
-    font-weight: bolder;
-}
-.palace-sec1{
-    display: flex;
-    justify-content: space-between;
-    gap: 1em;
-    background-color:beige;
+.sponsors h1{
+text-align: center;
 }
 
-.palace-sec1 div {
-    flex: 1;
-}
-.palace-sec1 ul{
-    display: flex;
-    list-style: none;
-}
-.palace-sec1 ul li{
-    margin: 2em;
-}
-.palace-list{
-    background-color: lightgrey;
-    
+.logo-text{
+display: flex;
+justify-content: space-around; 
+padding-bottom: 3em;
 }
 
-.team-info {
-    display: block;
-    color: red;
-    cursor: pointer;
+
+.information{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 40%;
+margin: 0 auto;
+font-size: 2rem;
+padding-top: 3em;
 }
-.partip{
-    font-size: larger;
-    font-weight: bolder;
-    width: 70%;
-    margin: .5em;
+.color{
+color:lime;
 }
-.treasure{
-    flex-direction: column;
+.miner{
+color: lime;
 }
-.teams-sec1{
-    align-items: center;
+
+.paragraph{
+text-align: center;
+border-bottom: 0.1px solid rgb(63, 60, 60);
+font-size: 2rem;
+padding-bottom: 3em;
+
 }
-.btn2{
-padding: .5em;
-font-size: larger;
+.para-graph{
+color: white;
+padding-top: 3em;
+}
+.para-graph h2,p{
+padding-bottom: 1.3em;
+}
+
+.customer{
+border-top: 0.1px solid rgb(63, 60, 60);
+text-align: center;
+border-bottom: 0.1px solid rgb(63, 60, 60);
+padding-bottom: 3em;
+
+}
+.btn{
+padding: 1em 4em;
+background-color: green;
+color: white;
+border-radius: 5px;
 border: none;
-border-radius: 3%;
-margin-left: 2em;
-background-color:grey;
-color: beige;
+}
+.button{
+padding: 1em 4em;
+background-color: orangered;
+color:white;
+margin-left: 1.5em;
+border-radius: 5px;
+border: none;
+
+}
+.btn:hover{
+transform: scale(1.1);
+transition: .5s;
+cursor: pointer;
+}
+.button:hover{
+transform: scale(1.1);
+transition: .5s;
 cursor: pointer;
 }
 
-.team-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: .5em;
+.footer-end{
+display: flex;
+justify-content: space-around;
+padding-top: 3em;
+}
+.footer-end ul{
+color: white;
+}
+.footer-end ul li{
+list-style-type: none;
+padding: .5em 0;
+
+
+}
+.footer-end ul li a{
+color: white;
+text-decoration: none;
 }
 
+.footer-end ul li a:hover{
+color: lightgrey;
+}
+.copy-icons{
+border-top: 0.1px solid rgb(63, 60, 60);;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 2em;
+}
+.icons{
+display: flex; 
+} 
+.icons i{
+padding:0 1em;
+align-items: center;
+color: white;
+}
+.sponsors-text{
+background-color:#fbf7ed;
 
+}
+.sponsors img{
+transition: .5s ;
+}
 
+.sponsors img:hover{
+transform:scale( 1.1);
 
-
-
-
-
-
-
-
-
-/* section3 syles */
+}
