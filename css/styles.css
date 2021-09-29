@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* section1 styles */
 *{
     box-sizing: border-box;
@@ -8,6 +14,7 @@
     width:100%;
     margin: 0 auto;
 }
+
 
 .nav{
     display: flex;
@@ -54,6 +61,118 @@ border-radius: 0.5em;
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+
+
 /* section2 styles */
+body{
+    font-family: serif sans-serif helvetica;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.head-sec1{
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+}
+.paragraph-sec1{
+    font-size: xx-large;
+    font-weight: bold;
+    width:70%;
+    margin-bottom: 1.5em;
+    margin-top: .5em;
+}
+.img1{
+    width:100%;
+}
+.trophy1{
+    margin-top: .2em;
+}
+.btn1{
+    padding: .3em;
+    width: 50%;
+    font-size: larger;
+    margin-right: 1.2rem;
+    border-radius: 3%;
+    border: none;
+    cursor: pointer;
+}
+.foot-ph1{
+    text-align: center;
+    margin: 0.4em 0;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+.palace-sec1{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    background-color:beige;
+}
+
+.palace-sec1 div {
+    flex: 1;
+}
+.palace-sec1 ul{
+    display: flex;
+    list-style: none;
+}
+.palace-sec1 ul li{
+    margin: 2em;
+}
+.palace-list{
+    background-color: lightgrey;
+    
+}
+
+.team-info {
+    display: block;
+    color: red;
+    cursor: pointer;
+}
+.partip{
+    font-size: larger;
+    font-weight: bolder;
+    width: 70%;
+    margin: .5em;
+}
+.treasure{
+    flex-direction: column;
+}
+.teams-sec1{
+    align-items: center;
+}
+.btn2{
+padding: .5em;
+font-size: larger;
+border: none;
+border-radius: 3%;
+margin-left: 2em;
+background-color:grey;
+color: beige;
+cursor: pointer;
+}
+
+.team-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5em;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* section3 syles */
