@@ -278,6 +278,7 @@
         display: block;
         color: red;
         cursor: pointer;
+        text-align: center;
     }
     .partip{
         font-size: larger;
