@@ -5,47 +5,54 @@
     padding: 0;
 }
 .container{
-    width:80%;
+    width:100%;
     margin: 0 auto;
 }
-.header{
-    background-color:#212931 ;
-}
+
 .nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: sticky;
+    /* width: 100%; */
     padding:1em;
     background-color:#16202C;
-}
-.nav img{
-    width: 5em
-}
-.btn{
-    background-color: green;
-    color: greenyellow;
-    padding: 1em;
-    cursor: pointer;
-}
-.btn:hover{
-    transform: scale(1.05);
-    transition: all .5s ease;
-}
-th{
-    background-color: #212931;
-color: snow;
-margin:0em 2em
-}
-table{
-    border-collapse: collapse;
     
 }
-td {
-    padding: 4em;
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
 }
-tr{
-    background-color: #16202C;
-    color: thistle;
+
+.nav img{
+    width:90px;
+}
+th{
+    color: ivory;
+padding: 2em;
+}
+.btn{
+background-color: lawngreen;
+cursor: pointer;
+padding: 1em 1.5em;
+border-radius: 0.5em;
+}
+.bar{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #23313D;
+    color: whitesmoke;
+}
+.bar img{
+    width: 15px;
+}
+.soccer{
+    display: flex;
+    flex-wrap: wrap;
 }
 /* section2 styles */
 
