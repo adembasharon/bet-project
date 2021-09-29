@@ -24,7 +24,7 @@
     
     .logo-text{
     display: flex;
-    justify-content: space-around; 
+    justify-content: center; 
     padding-bottom: 3em;
     }
     
@@ -98,6 +98,7 @@
     display: flex;
     justify-content: space-around;
     padding-top: 3em;
+    flex-wrap: wrap;
     }
     .footer-end ul{
     color: white;
@@ -308,8 +309,20 @@
         justify-content: center;
         margin: .5em;
     }
+
     
-    
+/* Media queries */
+@media (max-width:768px), (max-width:414px){
+
+    .logo-text{
+        flex-wrap: wrap;
+    }
+.information{
+    flex-wrap: wrap;
+}
+
+
+}
     
     
     
