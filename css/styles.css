@@ -221,6 +221,7 @@
     }
     .head-sec1{
         display: flex;
+        align-items: center;
         background-color: green;
         justify-content: space-between;
     }
@@ -232,25 +233,34 @@
         margin-top: .5em;
     }
     .img1{
-        width:100%;
+        
+        margin-right: 2em;
     }
     .trophy1{
         margin-top: .2em;
+        margin-top: -.3em;
+    }
+
+    .progress {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .btn1{
         padding: .3em;
-        width: 50%;
         font-size: larger;
         margin-right: 1.2rem;
         border-radius: 3%;
         border: none;
         cursor: pointer;
+        margin-bottom:.4em ;
     }
     .foot-ph1{
         text-align: center;
         margin: 0.4em 0;
         font-size:xx-large;
         font-weight: bolder;
+        color: wheat;
     }
     .palace-sec1{
         display: flex;
@@ -287,8 +297,14 @@
         margin: .5em;
     }
     .treasure{
+        margin-top: -6em;
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
     }
+    
     .teams-sec1{
         align-items: center;
     }
@@ -309,7 +325,28 @@
         justify-content: center;
         margin: .5em;
     }
-    
+    @media(max-width:780px){
+       .head-sec1{
+           flex-wrap: wrap;
+        
+       } 
+     .head-sec1 img{
+         width: 100%;
+     }  
+     .progress{
+         width: 100%;
+     }
+     .team-btn{
+         flex-direction: column;
+     }
+     .palace-sec1{
+         flex-wrap: wrap;
+         flex-direction: column;
+     }
+     .team-info{
+         flex-direction: column;
+     }
+    }
     
     
     
