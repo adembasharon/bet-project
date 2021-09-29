@@ -24,7 +24,7 @@
     
     .logo-text{
     display: flex;
-    justify-content: space-around; 
+    justify-content: center; 
     padding-bottom: 3em;
     }
     
@@ -98,6 +98,7 @@
     display: flex;
     justify-content: space-around;
     padding-top: 3em;
+    flex-wrap: wrap;
     }
     .footer-end ul{
     color: white;
@@ -326,6 +327,8 @@
         justify-content: center;
         margin: .5em;
     }
+
+
     @media(max-width:780px){
        .head-sec1{
            flex-wrap: wrap;
@@ -351,9 +354,19 @@
      .palace-list{
          align-items: center;
      }
+      
+         .logo-text{
+        flex-wrap: wrap;
+    }
+.information{
+    flex-wrap: wrap;
+}
     }
     
+
+
     
+
     
     
     
