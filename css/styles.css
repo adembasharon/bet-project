@@ -144,6 +144,9 @@
     transform:scale( 1.1);
     
     }
+
+    
+
     *{
         margin: 0;
         padding: 0;
@@ -255,6 +258,7 @@
         border: none;
         cursor: pointer;
         margin-bottom:.4em ;
+        background-color: khaki;
     }
     .foot-ph1{
         text-align: center;
@@ -276,13 +280,19 @@
     .palace-sec1 ul{
         display: flex;
         list-style: none;
+        justify-content: center;
     }
     .palace-sec1 ul li{
         margin: 2em;
     }
+    
     .palace-list{
         background-color: lightgrey;
         text-align: center;
+    }
+    .palace-list :hover{
+        transform: scale(1.1);
+        transition:.5s ease-in ;
     }
     
     .team-info {
@@ -320,7 +330,10 @@
     color: beige;
     cursor: pointer;
     }
-    
+    .btn2 :hover{
+        transform: scale(1.1);
+        transition:.5s ease-in ;
+    }
     .team-btn{
         display: flex;
         align-items: center;
