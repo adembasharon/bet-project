@@ -222,7 +222,8 @@
     }
     .head-sec1{
         display: flex;
-        background-color: green;
+        align-items: center;
+        background-color:#F2F2F2;
         justify-content: space-between;
     }
     .paragraph-sec1{
@@ -233,25 +234,34 @@
         margin-top: .5em;
     }
     .img1{
-        width:100%;
+        
+        margin-right: 2em;
     }
     .trophy1{
         margin-top: .2em;
+        margin-top: -.3em;
+    }
+
+    .progress {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .btn1{
         padding: .3em;
-        width: 50%;
         font-size: larger;
         margin-right: 1.2rem;
         border-radius: 3%;
         border: none;
         cursor: pointer;
+        margin-bottom:.4em ;
     }
     .foot-ph1{
         text-align: center;
         margin: 0.4em 0;
         font-size:xx-large;
         font-weight: bolder;
+        color:indianred;
     }
     .palace-sec1{
         display: flex;
@@ -272,13 +282,15 @@
     }
     .palace-list{
         background-color: lightgrey;
-        
+        text-align: center;
     }
     
     .team-info {
         display: block;
         color: red;
         cursor: pointer;
+        text-align: center;
+        
     }
     .partip{
         font-size: larger;
@@ -287,8 +299,14 @@
         margin: .5em;
     }
     .treasure{
+        margin-top: -6em;
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
     }
+    
     .teams-sec1{
         align-items: center;
     }
@@ -310,20 +328,45 @@
         margin: .5em;
     }
 
-    
-/* Media queries */
-@media (max-width:768px), (max-width:414px){
 
-    .logo-text{
+    @media(max-width:780px){
+       .head-sec1{
+           flex-wrap: wrap;
+        
+       } 
+     .head-sec1 img{
+         width: 100%;
+     }  
+     .progress{
+         width: 100%;
+     }
+     .team-btn{
+         flex-direction: column;
+     }
+     .palace-sec1{
+         flex-wrap: wrap;
+         flex-direction: column;
+     }
+     .team-info{
+         flex-direction: column;
+         align-items: center;
+     }
+     .palace-list{
+         align-items: center;
+     }
+      
+         .logo-text{
         flex-wrap: wrap;
     }
 .information{
     flex-wrap: wrap;
 }
-
-
-}
+    }
     
+
+
+    
+
     
     
     
