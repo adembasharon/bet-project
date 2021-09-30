@@ -167,6 +167,9 @@ margin-left:2em ;
     transform:scale( 1.1);
     
     }
+
+    
+
     *{
         margin: 0;
         padding: 0;
@@ -254,20 +257,21 @@ margin-left:2em ;
     
     /* section2 styles */
     body{
-        font-family: serif sans-serif helvetica;
+        font-family: "Mukta",sans-serif;
     }
     .head-sec1{
         display: flex;
         align-items: center;
         background-color:#F2F2F2;
         justify-content: space-between;
+        padding: 2em;
     }
     .paragraph-sec1{
         font-size: xx-large;
         font-weight: bold;
-        width:70%;
         margin-bottom: 1.5em;
         margin-top: .5em;
+        text-align: center;
     }
     .img1{
         
@@ -284,13 +288,14 @@ margin-left:2em ;
         align-items: center;
     }
     .btn1{
-        padding: .3em;
+        padding: .5em 2em;
         font-size: larger;
         margin-right: 1.2rem;
         border-radius: 3%;
         border: none;
         cursor: pointer;
         margin-bottom:.4em ;
+        background-color: khaki;
     }
     .foot-ph1{
         text-align: center;
@@ -312,13 +317,19 @@ margin-left:2em ;
     .palace-sec1 ul{
         display: flex;
         list-style: none;
+        justify-content: center;
     }
     .palace-sec1 ul li{
         margin: 2em;
     }
+    
     .palace-list{
         background-color: lightgrey;
         text-align: center;
+    }
+    .palace-list :hover{
+        transform: scale(1.1);
+        transition:.5s ease-in ;
     }
     
     .team-info {
@@ -333,6 +344,10 @@ margin-left:2em ;
         font-weight: bolder;
         width: 70%;
         margin: .5em;
+    }
+
+    .treasure-container {
+        padding: 1em 0;
     }
     .treasure{
         margin-top: -6em;
@@ -356,16 +371,19 @@ margin-left:2em ;
     color: beige;
     cursor: pointer;
     }
-    
+    .btn2 :hover{
+        transform: scale(1.1);
+        transition:.5s ease-in ;
+    }
     .team-btn{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: .5em;
+        margin: 2em 0;
     }
 
 
-    @media(max-width:780px){
+    @media(max-width:780px),(max-width:414px){
        .head-sec1{
            flex-wrap: wrap;
         
