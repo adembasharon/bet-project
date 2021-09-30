@@ -70,10 +70,11 @@
     }
     .btn{
     padding: 1em 4em;
-    background-color: green;
+    background-color:#2f881d;
     color: white;
     border-radius: 5px;
     border: none;
+    font-weight: bold;
     }
     .button{
     padding: 1em 4em;
@@ -198,7 +199,7 @@
     padding: 2em;
     }
     .btn{
-    background-color: lawngreen;
+    background-color:#2f881D;
     /* cursor: pointer; */
     padding: 1em 1.5em;
     border-radius: 0.5em;
@@ -393,11 +394,32 @@
 .information{
     flex-wrap: wrap;
 }
-    }
+
+.bet img{
+    width: 100%;
+}
+  .logo img{
+      display: flex;
+      align-items: center;
+  }
+
+  .logo {
+      width: 100%;
+  }
+
+  
+  .top-logo{
+      display: block;
+      margin: 0 auto;
+}
+
+th{
     
+    padding: 0.1px;
+}
 
 
-    
+}
 
     
     
