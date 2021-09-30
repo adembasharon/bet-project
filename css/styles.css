@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     }
     .dark-bg{
     background-color: black;
@@ -15,7 +16,7 @@
     
     
     .container{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     }
     .sponsors h1{
@@ -159,18 +160,19 @@
         margin: 0;
         padding: 0;
     }
-    .container{
-        width:100%;
-        margin: 0 auto;
-    }
-    
+
     
     .nav{
+        padding:1em;
+        background-color:#16202C;
+        
+    }
+
+    .nav1{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         position: sticky;
-        /* width: 100%; */
         padding:1em;
         background-color:#16202C;
         
@@ -180,19 +182,27 @@
         flex-direction: row;
         padding: 1em;
     }
-    
-    .nav img{
-        width:90px;
+    th a{
+        color: white;
+        text-decoration: none;
     }
+    th a:hover{
+        color: green;
+    }
+    .top-logo{
+        width:150px;
+    }
+
     th{
         color: ivory;
     padding: 2em;
     }
     .btn{
     background-color: lawngreen;
-    cursor: pointer;
+    /* cursor: pointer; */
     padding: 1em 1.5em;
     border-radius: 0.5em;
+    margin-left: 2em;
     }
     .bar{
         display: flex;
@@ -209,7 +219,15 @@
     .soccer{
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
     }
+
+    .soccer p{
+        padding-top: 1.3em;
+    }
+    /* .register{
+        margin-left: 2em;
+    } */
     
     
     
@@ -218,10 +236,6 @@
     /* section2 styles */
     body{
         font-family: "Mukta",sans-serif;
-    }
-    .container{
-        width: 95%;
-        margin: 0 auto;
     }
     .head-sec1{
         display: flex;
