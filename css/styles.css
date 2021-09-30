@@ -217,7 +217,7 @@
     
     /* section2 styles */
     body{
-        font-family: serif sans-serif helvetica;
+        font-family: "Mukta",sans-serif;
     }
     .container{
         width: 95%;
@@ -228,13 +228,14 @@
         align-items: center;
         background-color:#F2F2F2;
         justify-content: space-between;
+        padding: 2em;
     }
     .paragraph-sec1{
         font-size: xx-large;
         font-weight: bold;
-        width:70%;
         margin-bottom: 1.5em;
         margin-top: .5em;
+        text-align: center;
     }
     .img1{
         
@@ -251,7 +252,7 @@
         align-items: center;
     }
     .btn1{
-        padding: .3em;
+        padding: .5em 2em;
         font-size: larger;
         margin-right: 1.2rem;
         border-radius: 3%;
@@ -308,6 +309,10 @@
         width: 70%;
         margin: .5em;
     }
+
+    .treasure-container {
+        padding: 1em 0;
+    }
     .treasure{
         margin-top: -6em;
         display: flex;
@@ -338,11 +343,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: .5em;
+        margin: 2em 0;
     }
 
 
-    @media(max-width:780px){
+    @media(max-width:780px),(max-width:414px){
        .head-sec1{
            flex-wrap: wrap;
         
