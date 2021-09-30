@@ -97,27 +97,6 @@
     
     .footer-end{
     display: flex;
-
-    flex-direction: row;
-    padding: 1em;
-}
-
-.nav img{
-    width:90px;
-}
-th{
-    color: ivory;
-padding: 2em;
-}
-.btn{
-background-color: lawngreen;
-cursor: pointer;
-padding: 1em 1.5em;
-border-radius: 0.5em;
-margin-left:2em ;
-}
-.bar{
-
     justify-content: space-around;
     padding-top: 3em;
     flex-wrap: wrap;
@@ -141,7 +120,6 @@ margin-left:2em ;
     }
     .copy-icons{
     border-top: 0.1px solid rgb(63, 60, 60);;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -431,4 +409,3 @@ margin-left:2em ;
     
     
     /* section3 syles */
-    
