@@ -37,6 +37,7 @@ background-color: lawngreen;
 cursor: pointer;
 padding: 1em 1.5em;
 border-radius: 0.5em;
+margin-left:2em ;
 }
 .bar{
     display: flex;
