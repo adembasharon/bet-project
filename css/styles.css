@@ -10,7 +10,7 @@
     
     }
     .dark-bg{
-    background-color: black;
+    background-color: #16202C;
     color: white;
     }
     
@@ -39,11 +39,14 @@
     font-size: 2rem;
     padding-top: 3em;
     }
+    .information p{
+        text-align: center;
+    }
     .color{
-    color:lime;
+color: #2F881D;
     }
     .miner{
-    color: lime;
+    color: #2F881D;
     }
     
     .paragraph{
@@ -70,11 +73,18 @@
     }
     .btn{
     padding: 1em 4em;
+
     background-color:#2f881d;
     color: white;
     border-radius: 5px;
     border: none;
     font-weight: bold;
+
+    background-color: #2F881D;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.4rem;
     }
     .button{
     padding: 1em 4em;
@@ -83,6 +93,7 @@
     margin-left: 1.5em;
     border-radius: 5px;
     border: none;
+    font-size: 1.4rem;
     
     }
     .btn:hover{
@@ -199,7 +210,9 @@
     padding: 2em;
     }
     .btn{
+
     background-color:#2f881D;
+    background-color: #2F881D;
     /* cursor: pointer; */
     padding: 1em 1.5em;
     border-radius: 0.5em;
