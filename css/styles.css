@@ -1,26 +1,102 @@
 /* section1 styles */
+
+/* section2 styles */
+
+/* section3 syles */
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-.container{
-    width:100%;
-    margin: 0 auto;
-}
-
-.nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: sticky;
-    /* width: 100%; */
-    padding:1em;
-    background-color:#16202C;
+    box-sizing: border-box;
+    }
+    .dark-bg{
+    background-color: black;
+    color: white;
+    }
     
-}
-.nav-right{
+    
+    .container{
+    width: 80%;
+    margin: 0 auto;
+    }
+    .sponsors h1{
+    text-align: center;
+    }
+    
+    .logo-text{
     display: flex;
+    justify-content: center; 
+    padding-bottom: 3em;
+    }
+    
+    
+    .information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 2rem;
+    padding-top: 3em;
+    }
+    .color{
+    color:lime;
+    }
+    .miner{
+    color: lime;
+    }
+    
+    .paragraph{
+    text-align: center;
+    border-bottom: 0.1px solid rgb(63, 60, 60);
+    font-size: 2rem;
+    padding-bottom: 3em;
+    
+    }
+    .para-graph{
+    color: white;
+    padding-top: 3em;
+    }
+    .para-graph h2,p{
+    padding-bottom: 1.3em;
+    }
+    
+    .customer{
+    border-top: 0.1px solid rgb(63, 60, 60);
+    text-align: center;
+    border-bottom: 0.1px solid rgb(63, 60, 60);
+    padding-bottom: 3em;
+    
+    }
+    .btn{
+    padding: 1em 4em;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    }
+    .button{
+    padding: 1em 4em;
+    background-color: orangered;
+    color:white;
+    margin-left: 1.5em;
+    border-radius: 5px;
+    border: none;
+    
+    }
+    .btn:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+    }
+    .button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+    }
+    
+    .footer-end{
+    display: flex;
+
     flex-direction: row;
     padding: 1em;
 }
@@ -40,21 +116,287 @@ border-radius: 0.5em;
 margin-left:2em ;
 }
 .bar{
+
+    justify-content: space-around;
+    padding-top: 3em;
+    flex-wrap: wrap;
+    }
+    .footer-end ul{
+    color: white;
+    }
+    .footer-end ul li{
+    list-style-type: none;
+    padding: .5em 0;
+    
+    
+    }
+    .footer-end ul li a{
+    color: white;
+    text-decoration: none;
+    }
+    
+    .footer-end ul li a:hover{
+    color: lightgrey;
+    }
+    .copy-icons{
+    border-top: 0.1px solid rgb(63, 60, 60);;
+
     display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #23313D;
-    color: whitesmoke;
-}
-.bar img{
-    width: 15px;
-}
-.soccer{
-    display: flex;
+    padding-top: 2em;
+    }
+    .icons{
+    display: flex; 
+    } 
+    .icons i{
+    padding:0 1em;
+    align-items: center;
+    color: white;
+    }
+    .sponsors-text{
+    background-color:#fbf7ed;
+    
+    }
+    .sponsors img{
+    transition: .5s ;
+    }
+    
+    .sponsors img:hover{
+    transform:scale( 1.1);
+    
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* section1 styles */
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width:100%;
+        margin: 0 auto;
+    }
+    
+    
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: sticky;
+        /* width: 100%; */
+        padding:1em;
+        background-color:#16202C;
+        
+    }
+    .nav-right{
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+    }
+    
+    .nav img{
+        width:90px;
+    }
+    th{
+        color: ivory;
+    padding: 2em;
+    }
+    .btn{
+    background-color: lawngreen;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    border-radius: 0.5em;
+    }
+    .bar{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #23313D;
+        color: whitesmoke;
+    }
+    .bar img{
+        width: 15px;
+    }
+    .soccer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    
+    
+    /* section2 styles */
+    body{
+        font-family: serif sans-serif helvetica;
+    }
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .head-sec1{
+        display: flex;
+        align-items: center;
+        background-color:#F2F2F2;
+        justify-content: space-between;
+    }
+    .paragraph-sec1{
+        font-size: xx-large;
+        font-weight: bold;
+        width:70%;
+        margin-bottom: 1.5em;
+        margin-top: .5em;
+    }
+    .img1{
+        
+        margin-right: 2em;
+    }
+    .trophy1{
+        margin-top: .2em;
+        margin-top: -.3em;
+    }
+
+    .progress {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn1{
+        padding: .3em;
+        font-size: larger;
+        margin-right: 1.2rem;
+        border-radius: 3%;
+        border: none;
+        cursor: pointer;
+        margin-bottom:.4em ;
+    }
+    .foot-ph1{
+        text-align: center;
+        margin: 0.4em 0;
+        font-size:xx-large;
+        font-weight: bolder;
+        color:indianred;
+    }
+    .palace-sec1{
+        display: flex;
+        justify-content: space-between;
+        gap: 1em;
+        background-color:beige;
+    }
+    
+    .palace-sec1 div {
+        flex: 1;
+    }
+    .palace-sec1 ul{
+        display: flex;
+        list-style: none;
+    }
+    .palace-sec1 ul li{
+        margin: 2em;
+    }
+    .palace-list{
+        background-color: lightgrey;
+        text-align: center;
+    }
+    
+    .team-info {
+        display: block;
+        color: red;
+        cursor: pointer;
+        text-align: center;
+        
+    }
+    .partip{
+        font-size: larger;
+        font-weight: bolder;
+        width: 70%;
+        margin: .5em;
+    }
+    .treasure{
+        margin-top: -6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    }
+    
+    .teams-sec1{
+        align-items: center;
+    }
+    .btn2{
+    padding: .5em;
+    font-size: larger;
+    border: none;
+    border-radius: 3%;
+    margin-left: 2em;
+    background-color:grey;
+    color: beige;
+    cursor: pointer;
+    }
+    
+    .team-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: .5em;
+    }
+
+
+    @media(max-width:780px){
+       .head-sec1{
+           flex-wrap: wrap;
+        
+       } 
+     .head-sec1 img{
+         width: 100%;
+     }  
+     .progress{
+         width: 100%;
+     }
+     .team-btn{
+         flex-direction: column;
+     }
+     .palace-sec1{
+         flex-wrap: wrap;
+         flex-direction: column;
+     }
+     .team-info{
+         flex-direction: column;
+         align-items: center;
+     }
+     .palace-list{
+         align-items: center;
+     }
+      
+         .logo-text{
+        flex-wrap: wrap;
+    }
+.information{
     flex-wrap: wrap;
 }
-/* section2 styles */
+    }
+    
 
-/* section3 syles */
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* section3 syles */
+    
