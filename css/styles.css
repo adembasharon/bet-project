@@ -21,6 +21,9 @@
     }
     .sponsors h1{
     text-align: center;
+    padding-top: 2em;
+    font-size: 3rem;
+    font-weight: 300;
     }
     
     .logo-text{
@@ -38,6 +41,7 @@
     margin: 0 auto;
     font-size: 2rem;
     padding-top: 3em;
+
     }
     .information p{
         text-align: center;
@@ -175,7 +179,7 @@ color: #2F881D;
 
     
     .nav{
-        padding:1em;
+        /* padding:1em; */
         background-color:#16202C;
         
     }
@@ -224,9 +228,16 @@ color: #2F881D;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-color: #23313D;
+        
         color: whitesmoke;
     }
+    /* .container{
+        background-color: #23313D; */
+
+        .sports-menu {
+            background-color: #23313D;
+        }
+    
     .bar img{
         width: 15px;
     }
