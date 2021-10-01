@@ -1,8 +1,4 @@
-/* section1 styles */
 
-/* section2 styles */
-
-/* section3 syles */
 *{
     margin: 0;
     padding: 0;
@@ -76,22 +72,16 @@ color: #2F881D;
     
     }
     .btn{
-    padding: 1em 4em;
-
+    padding: 1em 1.3em;
     background-color:#2f881d;
     color: white;
     border-radius: 5px;
     border: none;
     font-weight: bold;
-
-    background-color: #2F881D;
-    color: white;
-    border-radius: 5px;
-    border: none;
     font-size: 1.4rem;
     }
     .button{
-    padding: 1em 4em;
+    padding: 1em 1.5em;
     background-color: orangered;
     color:white;
     margin-left: 1.5em;
@@ -170,7 +160,6 @@ color: #2F881D;
         box-sizing: border-box;
     }
     
-    /* section1 styles */
     *{
         box-sizing: border-box;
         margin: 0;
@@ -179,20 +168,20 @@ color: #2F881D;
 
     
     .nav{
-        /* padding:1em; */
+        
         background-color:#16202C;
         
     }
-
     .nav1{
-        display: flex;
-        flex-wrap: wrap;
+        display:flex ;
         justify-content: space-between;
         position: sticky;
         padding:1em;
         background-color:#16202C;
-        
+        flex-wrap: wrap;
     }
+    
+    
     .nav-right{
         display: flex;
         flex-direction: row;
@@ -213,26 +202,21 @@ color: #2F881D;
         color: ivory;
     padding: 2em;
     }
-    .btn{
 
-    background-color:#2f881D;
-    background-color: #2F881D;
-    /* cursor: pointer; */
-    padding: 1em 1.5em;
-    border-radius: 0.5em;
-    margin-left: 2em;
-    }
+    .mbtn{
+        margin-left: 1em;
+        }
+        
+
     .bar{
         display: flex;
-        /* flex-wrap: wrap; */
+        
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         
         color: whitesmoke;
     }
-    /* .container{
-        background-color: #23313D; */
 
         .sports-menu {
             background-color: #23313D;
@@ -250,15 +234,12 @@ color: #2F881D;
     .soccer p{
         padding-top: 1.3em;
     }
-    /* .register{
-        margin-left: 2em;
-    } */
+   
     
     
     
     
     
-    /* section2 styles */
     body{
         font-family: "Mukta",sans-serif;
     }
@@ -454,4 +435,3 @@ th{
     
     
     
-    /* section3 syles */
